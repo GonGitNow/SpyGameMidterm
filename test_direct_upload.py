@@ -66,7 +66,7 @@ def test_direct_pdf_upload(pdf_path, function_url, function_key):
 if __name__ == "__main__":
     # Function app details
     function_url = "https://pdfunc.azurewebsites.net/api/orchestrator"
-    function_key = "yv6mu0Ochn95dVrxPDuph5vWwJ2r0mzDnWAoKCJZChFuAzFuNH0e9Q=="
+    function_key = ""
     
     # Test with each PDF in the test_pdfs directory
     test_files = [f for f in os.listdir('test_pdfs') if f.endswith('.pdf')]
